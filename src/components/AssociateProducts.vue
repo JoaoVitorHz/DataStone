@@ -3,12 +3,12 @@
     <h2>Associar Produtos ao Cliente</h2>
     <form @submit.prevent="AssociateProducts" class="flex flex-col gap-3">
       <label for="client">Selecione o Cliente:</label>
-      <select v-model="selectedClient" required class="bg-gray-950 border-gray-600 border">
+      <select v-model="selectedClient" required class="bg-gray-950 border-gray-600 border  px-2 py-1 outline-none">
         <option v-for="client in Clients" :key="client.Cpf" :value="client.Cpf">{{ client.Name }}</option>
       </select>
 
       <label for="product">Selecione os Produtos:</label>
-      <select v-model="selectedProduct"  required class="bg-gray-950 border-gray-600 border">
+      <select v-model="selectedProduct"  required class="bg-gray-950 border-gray-600 border  px-2 py-1 outline-none">
         <option v-for="Product in Products" :key="Product.name" :value="Product.name">{{ Product.name }}</option>
       </select>
 

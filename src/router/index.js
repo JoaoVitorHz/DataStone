@@ -18,7 +18,17 @@ const router = createRouter({
       path: '/ClientForm',
       name: 'ClientForm',
       component: () => import('../components/ClientForm.vue')
-    }
+    },
+    {
+      path: '/ListClients',
+      name: 'ListClients',
+      component: () => import('../components/ListClients.vue')
+    },
+    {
+      path: '/ListProduct',
+      name: 'ListProduct',
+      component: () => import('../components/ListProduct.vue')
+    },
   ]
 })
 

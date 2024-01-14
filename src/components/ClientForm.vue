@@ -5,27 +5,27 @@
     <form @submit.prevent="CreateClient" class="flex flex-col gap-3">
       <div class="flex flex-col">
         <label for="nome">Nome:</label>
-        <input type="text" v-model="client.Name" required class="bg-gray-950 border-gray-600 border" />
+        <input type="text" v-model="client.Name" required class="bg-gray-950 border-gray-600 border  px-2 py-1 outline-none" />
       </div>
 
       <div class="flex flex-col">
         <label for="documento">Documento:</label>
-        <input type="text" v-model="client.Cpf" required  class="bg-gray-950 border-gray-600 border"/>
+        <input type="text" v-model="client.Cpf" required  class="bg-gray-950 border-gray-600 border  px-2 py-1 outline-none"/>
       </div>
 
       <div class="flex flex-col">
         <label for="telefone">Telefone:</label>
-        <input type="text" v-model="client.Phone" required class="bg-gray-950 border-gray-600 border"/>
+        <input type="text" v-model="client.Phone" required class="bg-gray-950 border-gray-600 border  px-2 py-1 outline-none"/>
       </div>
 
       <div class="flex flex-col">
         <label for="email">E-mail:</label>
-        <input type="email" v-model="client.Email" required class="bg-gray-950 border-gray-600 border"/>
+        <input type="email" v-model="client.Email" required class="bg-gray-950 border-gray-600 border  px-2 py-1 outline-none"/>
       </div>
 
       <div class="flex flex-col">
         <label for="ativo">Ativo:</label>
-        <select v-model="client.IsActive" class="bg-gray-950 border-gray-600 border">
+        <select v-model="client.IsActive" class="bg-gray-950 border-gray-600 border  px-2 py-1 outline-none">
           <option value="True">Sim</option>
           <option value="false">Não</option>
         </select>

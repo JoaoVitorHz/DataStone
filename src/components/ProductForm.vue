@@ -4,12 +4,12 @@
     <form @submit.prevent="CreateProduct" class="flex flex-col gap-3">
       <div class="flex flex-col">
         <label for="name">Nome:</label>
-        <input type="text" v-model="product.name" required class="bg-gray-950 border-gray-600 border"/>
+        <input type="text" v-model="product.name" required class="bg-gray-950 border-gray-600 border  px-2 py-1 outline-none"/>
       </div>
 
       <div class="flex flex-col">
         <label for="ativo">Ativo:</label>
-        <select v-model="product.isActive" class="bg-gray-950 border-gray-600 border">
+        <select v-model="product.isActive" class="bg-gray-950 border-gray-600 border  px-2 py-1 outline-none">
           <option value="trul">Sim</option>
           <option value="false">Não</option>
         </select>
