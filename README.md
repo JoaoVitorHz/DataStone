@@ -1,29 +1,28 @@
-# datastone
+## Introdução 
+Olá seja Bem vindo, a um projeto de associação de Clientes e Produtos!🤩
 
-This template should help get you started developing with Vue 3 in Vite.
+## Tecnologias Usadas 
+- Vue 3
+- Javascript
+- HTML
+- TailwindCss
 
-## Recommended IDE Setup
+ ## Para usar o projeto 
+ - Para você testar o projeto e necessario que você tenha o `Node` é o `NPM` instalado na sua maquina!
+ 
+ - Agora faça clone do repositorio.
+ - Depois de clonar o repostiorio, entre na Pasata datastone e instale as dependecia do projeto. 
+ ```
+ npm install
+ ```
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+ - Agora é só rodar a aplicação usando.
+   
+ ```
+ npm run dev
+ ```
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+- O Terminal vai te informar em qual local o seu projeto esta rodando, basta copiar a url e jogar no navegador.
 ```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+ http://localhost:5173/
+ ```
