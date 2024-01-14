@@ -1,6 +1,12 @@
 ## Introdução 
 Olá seja Bem vindo, a um projeto de associação de Clientes e Produtos!🤩
 
+- Fiz o projeto em cerca de 4 horas, foi o tempo que tive para fazer, mas acredito que conseguir fazer algo bem satisfatorio.
+- Foi bem simples de desenvolvar porque já fiz sistemas parecidos.
+- Utilizei LocalStorage para salvar as informações.
+- Separei cada pagína em um component já que os códigos não ficaram muito grande, mas se eu tivesse mais tempo focaria em dar uma componentizada.
+- Também seria legal utilizar algumas classes do Tailwind, mas como não tive muito tempo só fui replicando as estilizações.
+
 ## Tecnologias Usadas 
 - Vue 3
 - Javascript
