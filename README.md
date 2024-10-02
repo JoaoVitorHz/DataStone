@@ -1,28 +1,29 @@
-## Introdução 
-Olá seja Bem vindo, a um projeto onde você pode criar clientes e produtos, e vincular um produto a um cliente!
+## Introduction
+Hello, welcome to a project where you can create customers and products and link a product to a customer!
 
-## Tecnologias Usadas 
+## Technologies Used
 - Vue 3
-- Javascript
+- JavaScript
 - HTML
-- TailwindCss
+- Tailwind CSS
 
- ## Para usar o projeto 
- - Para você testar o projeto e necessario que você tenha o `Node` é o `NPM` instalado na sua maquina!
- 
- - Agora faça clone do repositorio.
- - Depois de clonar o repostiorio, entre na Pasata datastone e instale as dependecia do projeto. 
+## How to Use the Project
+- To test the project, you need to have `Node` and `NPM` installed on your machine!
+
+- Now clone the repository.
+- After cloning the repository, navigate to the `datastone` folder and install the project dependencies.
+
  ```
  npm install
  ```
 
- - Agora é só rodar a aplicação usando.
+ - Now you can run the application using:
    
  ```
  npm run dev
  ```
 
-- O Terminal vai te informar em qual local o seu projeto esta rodando, basta copiar a url e jogar no navegador.
+- The terminal will inform you where your project is running. Just copy the URL and paste it into your browser.
 ```
  http://localhost:5173/
  ```
